@@ -1,0 +1,111 @@
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  background: white;
+  letter-spacing: 5px;
+  font-family: 'Lato'; }
+
+#contact-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-family: 'Lato'; }
+
+.navbar-nav li a:hover {
+  color: #FF4756 !important; }
+
+.jumbotron {
+  padding-top: 11em;
+  padding-bottom: 12em;
+  background-color: white;
+  margin: 0; }
+
+#aboutme {
+  margin-top: -6em;
+  color: #50514F;
+  line-height: 30px; }
+
+p {
+  font-size: 1.2em;
+  font-family: 'Scope One', serif;
+  margin: 0em;
+  padding: 0em; }
+
+.subtitle {
+  padding-bottom: 2em;
+  font-size: 2.5em;
+  color: #DB504A; }
+
+#proj-container {
+  padding-top: 9em;
+  padding-bottom: 10em;
+  background-color: white; }
+
+.thumbnail {
+  border: none;
+  border-radius: 0;
+  vertical-align: middle; }
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px; }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #4F6D7A; }
+
+.carousel-indicators li.active {
+  background-color: #4F6D7A; }
+
+.item span {
+  font-style: normal; }
+
+.title-divider {
+  background-color: #FF4756;
+  height: 0.15em;
+  width: 10%;
+  margin: 0 auto;
+  opacity: 0.8;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.glyphicon-chevron-down {
+  font-size: 30px; }
+
+.text--line {
+  font-size: .5em; }
+
+svg {
+  font-size: 30em;
+  font-family: 'Lobster Two'; }
+
+.text-copy {
+  fill: none;
+  stroke-dasharray: 7% 21%;
+  stroke-width: 3px;
+  animation: stroke-offset 5s linear; }
+  .text-copy:nth-child(1) {
+    stroke: #70C1B3;
+    stroke-dashoffset: 7%; }
+  .text-copy:nth-child(2) {
+    stroke: #247BA0;
+    stroke-dashoffset: 14%; }
+  .text-copy:nth-child(3) {
+    stroke: #FFE066;
+    stroke-dashoffset: 21%; }
+  .text-copy:nth-child(4) {
+    stroke: #F25F5C;
+    stroke-dashoffset: 28%; }
+
+@keyframes stroke-offset {
+  0% {
+    stroke-dashoffset: 28%;
+    stroke-dasharray: 0 28%; } }
+
+/*# sourceMappingURL=style.css.map */

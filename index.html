@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Prad Tantiwuttipong</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="">PT</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#proj-container">PROJECTS</a></li>
+					<li><a target="_blank" href="https://github.com/tantiwup">GITHUB</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron bg-1 text-center">
+		<svg width="100%" height="400" viewBox="0 0 100% 400">
+			<symbol id="s-text">
+			    <text text-anchor="middle"
+			        x="50%"
+			        y="60%"
+			        class="text--line"
+			        >
+			      PRAD
+			    </text>
+			</symbol>
+			<g class="g-ants">
+			    <use xlink:href="#s-text"
+			      class="text-copy"></use>     
+			    <use xlink:href="#s-text"
+			      class="text-copy"></use>     
+			    <use xlink:href="#s-text"
+			      class="text-copy"></use>     
+			    <use xlink:href="#s-text"
+			      class="text-copy"></use>     
+			    <use xlink:href="#s-text"
+			      class="text-copy"></use>     
+			</g>
+		</svg>
+		<div class="container-fluid text-center">
+			<div id="aboutme" class="row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<p>Hello!</p>
+					<p>I'm Prad Tantiwuttipong, a 3rd year Computer Science and Engineering student studying at the University of California, Irvine. Solving puzzles and problems was always a bit of an obsession for me, which is why I enjoy tackling big programming projects and attending hackathons all over California. In my free time, I read, program, and play tennis.</p>
+				</div>
+			</div>
+			<br><br><br>
+			<a href="#proj-container"><span class="glyphicon glyphicon-chevron-down"></span></a>
+		</div>
+	</div>
+
+	<div id="proj-container" class="container-fluid text-center">
+		<p class="subtitle">Projects</p>
+		<div class="row">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+				<div id="projects" class="carousel slide text-center">
+					<div class="carousel-inner" role="listbox">
+						<div class="item">
+							<div class="row text-center">
+								<div class="col-sm-2"></div>
+								<div class="col-sm-6">
+									<div class="thumbnail">
+										<img src="assets/3DhandSW.png" alt="SW">
+									</div>
+								</div>
+								<div class="col-sm-2">
+									<div class="thumbnail">
+										<br>
+										<strong><p>3D Printed Hand</p></strong>
+										<div class="title-divider"></div>
+										<p>A glove with strategically placed flex sensors keeps track of the user's hand movements. A simple Python application then saves the movements to be played back at any time to a mechanical 3D printed hand of our own design.</p><br>
+										<strong><p>Technologies</p></strong>
+										<div class="title-divider"></div>
+										<p>Python, Arduino, SolidWorks, 3D Printing</p><br>
+										<strong><p>Future Goals</p></strong>
+										<div class="title-divider"></div>
+										<p>Improve the accuracy of the recordings and rewrite the control application for Android/IoS.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item active">
+							<div class="row text-center">
+								<div class="col-sm-2"></div>
+								<div class="col-sm-6">
+									<div class="thumbnail">
+									<img src="assets/Califire.png" alt="CA">
+									</div>
+								</div>
+								<div class="col-sm-2">
+									<div class="thumbnail">
+										<br>
+										<strong><p>California Wildfire Simulator</p></strong>
+										<div class="title-divider"></div>
+										<p>This application uses U.S. Forest Service wildfire data to generate Monte Carlo simulations that predict the likelihood of wildfire at the user's chosen location(CA only).</p>
+										<p><a target="_blank" href="https://meltedsky.shinyapps.io/FireSim/">View Demo</a></p><br>
+										<strong><p>Technologies </p></strong>
+										<div class="title-divider"></div>
+										<p>R, Shiny, Leaflet for R, shinyapps.io</p><br>
+										<strong><p>Future Goals </p></strong>
+										<div class="title-divider"></div>
+										<p> Factor real-time weather data into the algorithm and expand support to the continental United States.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row text-center">
+								<div class="col-sm-2"></div>
+								<div class="col-sm-6">
+									<div class="thumbnail">
+									<img src="assets/crowdfoods.png" alt="CA">
+									</div>
+								</div>
+								<div class="col-sm-2">
+									<div class="thumbnail">
+										<br>
+										<strong><p>CrowdFoods</p></strong>
+										<div class="title-divider"></div>
+										<p>If you've ever tried to plan a party or feed a crowd, you know that it requires a lot of planning and organization. This web app makes it easy to pay for food for your entire group. This app won the Postmates API award at LA Hacks 2016.</p>
+										<p><a target="_blank" href="http://devpost.com/software/126-crowdfoods">More Info</a></p><br>
+										<strong><p>Technologies </p></strong>
+										<div class="title-divider"></div>
+										<p>Python, Postmates API, Tornado Web Framework, Redis, materialize.css</p><br>
+										<strong><p>Future Goals </p></strong>
+										<div class="title-divider"></div>
+										<p> None! This project is no longer under development</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    		<span class="sr-only">Previous</span>
+			  		</a>
+			  		<a class="right carousel-control" href="#projects" role="button" data-slide="next">
+			    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    		<span class="sr-only">Next</span>
+			  		</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact-container" class="container-fluid text-center">
+		<span class="glyphicon glyphicon-copyright-mark"></span>
+		<span>Copyright 2016 Prad Tantiwuttipong | </span>
+		<span>&nbsp;tantiwup@uci.edu</span>
+	</div>
+</body>
+</html>

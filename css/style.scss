@@ -1,5 +1,7 @@
-
-
+html, body {
+  width: auto;
+  overflow-x: hidden;
+}
 .navbar {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -7,21 +9,10 @@
     border-radius: 0;
     margin-bottom: 0;
     font-size: 1em;
-    background:#111111;
     letter-spacing: 5px;
     font-family: 'Lato';
     background:url("../assets/background2.jpg");
-  background-size:cover;
-}
-
-#contact-container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    font-size: 1em;
-    font-family: 'Lato';
-    color:#DDDDDD;
-    background-color:#0B0B0B;
+    background-size:cover;
 }
 
 .navbar-nav li a:hover {
@@ -51,17 +42,16 @@
   color:#DFDFDF;
 }
 
-strong p{
+strong p {
   color:#DDDDDD;
 }
 
-p{
+p {
 	font-size:1.2em;
 	font-family: 'Scope One', serif;
 	margin:0em;
 	padding:0em;
 }
-
 
 .subtitle {
 	padding-bottom:2em;
@@ -102,10 +92,7 @@ p{
 
 .thumbnail a:hover{
   color:#81CFE0;
-
-
 }
-
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
@@ -115,12 +102,6 @@ p{
 .carousel-indicators li.active {
     background-color: #DDDDDD;
 }
-
-
-.item span {
-    font-style: normal;
-}
-
 
 .title-divider {
 	background-color:#22A7F0;
@@ -142,20 +123,21 @@ p{
 }
 
 
+/*Handles title colors */
 $colors: #F2385A, #F5A503, #E9F1DF, #56D9CD, #3AA1BF;
-
 
 .text--line {
   font-size: 0.5em;
   }
 
 svg {
-  font-size:36vw;
+  font-size:40vmax;
   font-family: 'Allura';
-  -ms-transform: rotate(-10deg); /* IE 9 */
+  -ms-transform: rotate(-10deg);     /* IE 9 */
   -webkit-transform: rotate(-10deg); /* Safari */
-  transform: rotate(-10deg); /* Standard syntax */
+  transform: rotate(-10deg);         /* Standard syntax */
   }
+
 
 $max: 5;
 $stroke-step: 7%; 
@@ -181,4 +163,19 @@ $stroke-step: 7%;
     stroke-dashoffset: $stroke-step * $max;  
     stroke-dasharray: 0 $stroke-step * $max;
   }
+}
+
+#contact-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-family: 'Lato';
+    color:#DDDDDD;
+    background-color:#0B0B0B;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
